@@ -1,6 +1,6 @@
 |             | status |
 |-------------|------------|
-| **master** | [![Build Status](https://travis-ci.org/afourmy/flask-gentelella.svg?branch=master)](https://travis-ci.org/afourmy/flask-gentelella) [![Coverage Status](https://coveralls.io/repos/github/afourmy/flask-gentelella/badge.svg?branch=master)](https://coveralls.io/github/afourmy/flask-gentelella?branch=master)
+| **master** | [![Build Status](https://travis-ci.org/juancra264/flask_template.svg?branch=master)](https://travis-ci.org/juancra264/flask_template) [![Coverage Status](https://coveralls.io/repos/github/juancra264/flask_template/badge.svg?branch=master)](https://coveralls.io/github/juancra264/flask_template?branch=master)
 
 # Python 3 - Flask Template
 
