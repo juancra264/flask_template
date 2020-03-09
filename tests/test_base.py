@@ -3,6 +3,7 @@ disable(CRITICAL)
 
 urls = {
     '': (
+        '/',
         '/fixed_sidebar',
         '/fixed_footer',
         '/page_403',
