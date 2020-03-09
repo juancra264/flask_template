@@ -3,12 +3,16 @@ disable(CRITICAL)
 
 urls = {
     '': (
+        '/fixed_sidebar',
+        '/fixed_footer',
         '/page_403',
         '/page_404',
         '/page_500'
     ),
     'home': (
-        'index'
+        '/index',
+        '/index2',
+        '/index3'
     )
 }
 
@@ -51,12 +55,12 @@ def test_authentication(base_client):
             assert r.status_code == expected_code
 
 
-#def test_urls(user_client):
-#    for blueprint, pages in urls.items():
-#        for page in pages:
-#            page_url = blueprint + page
-#            r = user_client.get(page_url, follow_redirects=True)
-#            assert r.status_code == 200
-#    # logout and test that we cannot access anything anymore
-#    r = user_client.get('/logout', follow_redirects=True)
-#    test_authentication(user_client)
+def test_urls(user_client):
+    for blueprint, pages in urls.items():
+        for page in pages:
+            page_url = blueprint + page
+            r = user_client.get(page_url, follow_redirects=True)
+            assert r.status_code == 200
+    # logout and test that we cannot access anything anymore
+    r = user_client.get('/logout', follow_redirects=True)
+    test_authentication(user_client)
