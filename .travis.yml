@@ -1,3 +1,5 @@
+language: python
+os: linux
 matrix:
   include:
     - language: python
