@@ -4,7 +4,7 @@
 
 # Python 3 - Flask Template
 
-> Python Flask template
+> Python3.7.6 Flask template
 
 ## Quick Start
 
