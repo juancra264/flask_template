@@ -1,10 +1,9 @@
 language: python
 os: linux
-matrix:
+jobs:
   include:
     - language: python
-      python:
-        - 3.6.10
+      python: "3.6.10"
       install:
         - pip install -r requirements_dev.txt
       script:
